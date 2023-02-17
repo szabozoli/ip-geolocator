@@ -17,7 +17,7 @@ public class GeoLocation {
     private double latitude;
     private double longitude;
     private Integer metroCode;
-    
+
     public String toString() {
         return ReflectionToStringBuilder.toString(this, ToStringStyle.MULTI_LINE_STYLE);
     }
